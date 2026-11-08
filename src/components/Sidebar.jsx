@@ -4,7 +4,13 @@ export default function Sidebar({ profile, navigation, active, goTo }) {
   return (
     <aside className="sticky top-0 hidden h-screen w-[258px] shrink-0 border-r border-white/[0.07] bg-[#0a111d]/85 px-5 py-7 backdrop-blur-xl lg:flex lg:flex-col">
       <a href="#overview" onClick={(e) => { e.preventDefault(); goTo("overview"); }} className="flex items-center gap-3">
-        <div className="grid h-10 w-10 place-items-center rounded-xl border border-teal-300/20 bg-teal-300/10 font-mono text-sm font-bold text-teal-200">{profile.initials}</div>
+        <div className="grid h-10 w-10 place-items-center overflow-hidden rounded-xl border border-teal-300/20 bg-teal-300/10">
+          <img
+            src={`${import.meta.env.BASE_URL}favicon.svg`}
+            alt="Satyaprakash Sethy"
+            className="h-full w-full object-contain"
+          />
+        </div>
         <div>
           <p className="text-sm font-semibold text-white">Satyaprakash Sethy</p>
           <p className="mt-0.5 text-[11px] text-slate-500">Backend Engineering</p>
