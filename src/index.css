@@ -1,0 +1,22 @@
+@import "./styles/portfolio.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scrollbar-gutter: stable;
+  }
+
+  body {
+    @apply bg-[#05070e] text-slate-200 antialiased selection:bg-emerald-500/20 selection:text-emerald-300;
+    font-feature-settings: 'ss01' on, 'ss02' on, 'cv01' on;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

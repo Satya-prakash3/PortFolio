@@ -1,0 +1,143 @@
+{
+  "profile": {
+    "name": "Satyaprakash Sethy",
+    "initials": "SS",
+    "role": "Backend Engineer",
+    "positioning": "Secure systems. Reliable APIs. Practical engineering.",
+    "email": "satyaprakashsethy905@gmail.com",
+    "location": "Hyderabad, India",
+    "github": "https://github.com/Satya-prakash3/",
+    "linkedin": "https://www.linkedin.com/in/satyaprakashsethy/",
+    "resume": "https://drive.google.com/file/d/1_PxVwgPxy4J9ZjL2SCbqSgpb4km0KQcE/view?usp=drive_link",
+    "summary": "I design and build Python-based backend systems with a focus on identity, API security, and dependable service delivery. My work spans centralized authentication, event platforms, secure workflows, and production APIs.",
+    "engineeringFocus": [
+      "Backend architecture",
+      "Identity & access management",
+      "Application / API security",
+      "Reliable service delivery"
+    ]
+  },
+  "metrics": [
+    {"value": "10+", "label": "Products using centralized SSO", "detail": "Identity and access platform"},
+    {"value": "~8,000", "label": "Concurrent event users", "detail": "Reported live-event scale"},
+    {"value": "2+", "label": "Years in backend development", "detail": "Professional experience"},
+    {"value": "30+", "label": "Secured APIs handled", "detail": "API development and review work"}
+  ],
+  "capabilities": [
+    {"name": "Backend engineering", "items": ["Python", "Django", "Django REST Framework", "FastAPI", "REST API design"]},
+    {"name": "Identity & application security", "items": ["Keycloak", "OAuth 2.0", "OpenID Connect", "JWT", "RBAC", "API security reviews", "OWASP Top 10"]},
+    {"name": "Data & asynchronous systems", "items": ["MySQL", "PostgreSQL", "MongoDB", "Redis", "Celery"]},
+    {"name": "Systems & delivery", "items": ["Linux", "Linux From Scratch", "Docker", "Git", "Background processing", "In-house deployment"]},
+    {"name": "Security labs & tooling", "items": ["Kali Linux", "Nmap", "Wireshark", "Burp Suite"]}
+  ],
+  "work": [
+    {
+      "number": "01",
+      "title": "Centralized Single Sign-On Platform",
+      "eyebrow": "PLATFORM OWNERSHIP · IDENTITY & ACCESS",
+      "summary": "Backend development and technical ownership for a centralized identity platform used across more than 10 organizational products.",
+      "outcomes": [
+        "Implemented backend workflows for user registration and role assignment.",
+        "Worked with Keycloak for authentication and session management.",
+        "Built and maintained APIs using Python and Django REST Framework.",
+        "Used MySQL, Redis caching, and Celery background tasks in the platform stack."
+      ],
+      "stack": ["Python", "Django REST Framework", "Keycloak", "MySQL", "Redis", "Celery"]
+    },
+    {
+      "number": "02",
+      "title": "Event Management & Service Delivery Platform",
+      "eyebrow": "PLATFORM OWNERSHIP · HIGH-CONCURRENCY DELIVERY",
+      "summary": "End-to-end backend work across event registration and digital learning services, including virtual labs, e-learning, quizzes, and certification.",
+      "outcomes": [
+        "Developed backend APIs and workflows for event registration and service assignment.",
+        "Supported integrations and service delivery across event modules.",
+        "Contributed to a live event that remained available while serving approximately 8,000 concurrent users.",
+        "Worked across authentication, data handling, background tasks, and API security."
+      ],
+      "stack": ["Python", "Django REST Framework", "Keycloak", "MySQL", "Redis", "Celery"]
+    }
+  ],
+  "caseStudies": [
+    {
+      "category": "API SECURITY",
+      "title": "API Security & Business Logic Hardening",
+      "description": "Identified and addressed API security issues, including request replay vulnerabilities, parameter tampering, secure file upload handling, and authentication, session management, and authorization controls.",
+      "impact": "Strengthened API security, access control, and validation of critical backend business workflows",
+      "tags": ["Python", "Django REST Framework", "API Security", "Authentication", "Authorization", "Session Management", "Secure File Handling"]
+    },
+    {
+      "category": "IDENTITY & ACCESS MANAGEMENT",
+      "title": "Centralized SSO & Identity Security",
+      "description": "Worked on a centralized Single Sign-On platform using Keycloak, implementing authentication, session management, role-based access control, and secure access across 10+ organizational products.",
+      "impact": "Enabled centralized identity management and secure authentication across multiple applications",
+      "tags": ["Keycloak", "OAuth 2.0", "OIDC", "JWT", "RBAC", "Django REST Framework"]
+    },
+    {
+      "category": "CONSENT & PRIVACY",
+      "title": "Role-based consent management design",
+      "description": "Worked through consent requirements for User, Coordinator, and PMU Manager workflows, including profile data, exam enrollment, coordinator uploads, and report review.",
+      "impact": "Mapped consent capture to the data-collection workflows",
+      "tags": ["Consent lifecycle", "Role-based workflows", "Django"]
+    },
+    {
+      "category": "SYSTEMS RESEARCH",
+      "title": "Linux From Scratch build",
+      "description": "Built a Linux distribution from source to learn toolchain bootstrapping, kernel configuration, and init system setup.",
+      "impact": "Deepened OS internals and system-level debugging skills",
+      "tags": ["LFS", "Kernel", "Toolchain", "System programming"]
+    },
+    {
+      "category": "SECURITY LABS",
+      "title": "Cybersecurity hands-on labs",
+      "description": "Practical learning with Kali Linux, Nmap reconnaissance, Wireshark traffic analysis, and Burp Suite testing; Pre Security & Cyber Security 101 certificates.",
+      "impact": "Applied offensive and defensive security fundamentals",
+      "tags": ["Kali", "Nmap", "Wireshark", "Burp Suite"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "CodeSandbox",
+      "kind": "Development platform",
+      "description": "An online code sandbox environment for rapid prototyping and sharing. Explore implementation details and current project status.",
+      "href": "https://github.com/Satya-prakash3/CodeSandbox",
+      "tags": ["Frontend", "Developer Tools"]
+    },
+    {
+      "name": "TaxBridge",
+      "kind": "Backend project",
+      "description": "A tax processing and integration backend. See the repository for its architecture, endpoints, and technology choices.",
+      "href": "https://github.com/Satya-prakash3/TaxBridge",
+      "tags": ["API", "Backend", "Finance"]
+    },
+    {
+      "name": "Network-Bandwidth-Monitor",
+      "kind": "Systems utility",
+      "description": "A utility project focused on monitoring network bandwidth and performance.",
+      "href": "https://github.com/Satya-prakash3/Network-Bandwidth-Monitor",
+      "tags": ["Python", "Networking"]
+    },
+    {
+      "name": "Linux From Scratch",
+      "kind": "Systems Building",
+      "description": "Built a complete Linux distribution from source to understand the operating system internals and bootstrapping process.",
+      "href": "#",
+      "tags": ["LFS", "Kernel", "Toolchain", "System Programming"]
+    },
+    {
+      "name": "Cybersecurity Learning & Labs",
+      "kind": "Security research",
+      "description": "Hands-on learning in offensive and defensive security with practical labs and tooling.",
+      "href": "#",
+      "tags": ["Kali", "Nmap", "Wireshark", "Burp Suite", "OWASP"]
+    }
+  ],
+  "navigation": [
+    ["overview", "Overview", "⌂"],
+    ["experience", "Experience", "▤"],
+    ["security", "Security work", "◇"],
+    ["projects", "Projects", "⌘"],
+    ["toolkit", "Technical toolkit", "▦"],
+    ["contact", "Contact", "↗"]
+  ]
+}
