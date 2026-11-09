@@ -18,13 +18,7 @@
   background: #243047;
 }
 
-/* Light mode global invert */
-html.light body {
-  filter: invert(1) hue-rotate(180deg);
-}
-html.light img, html.light video, html.light canvas {
-  filter: invert(1) hue-rotate(180deg);
-}
+/* Light mode removed for better accessibility and performance */
 
 /* Subtle animations */
 @keyframes fade-in {
@@ -34,4 +28,14 @@ html.light img, html.light video, html.light canvas {
 
 .animate-fade-in {
   animation: fade-in 0.6s ease-out;
+}
+
+@keyframes drift {
+  0% { transform: translate(0,0) scale(1); }
+  50% { transform: translate(2%, -3%) scale(1.03); }
+  100% { transform: translate(0,0) scale(1); }
+}
+
+.animate-drift {
+  animation: drift 30s ease-in-out infinite;
 }

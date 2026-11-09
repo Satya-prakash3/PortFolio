@@ -3,6 +3,7 @@ import data from "./content/profile.json";
 import Sidebar from "./components/Sidebar";
 import Header from "./components/Header";
 import Overview from "./components/Overview";
+import About from "./components/About";
 import Experience from "./components/Experience";
 import Security from "./components/Security";
 import Projects from "./components/Projects";
@@ -15,14 +16,7 @@ function App() {
   const [active, setActive] = useState("overview");
   const [menuOpen, setMenuOpen] = useState(false);
   const [showAllCases, setShowAllCases] = useState(false);
-  const [theme, setTheme] = useState("dark");
   const year = useMemo(() => new Date().getFullYear(), []);
-
-  React.useEffect(() => {
-    document.documentElement.classList.toggle("light", theme === "light");
-  }, [theme]);
-
-  const toggleTheme = () => setTheme(t => t === "dark" ? "light" : "dark");
 
   const goTo = (id) => {
     setActive(id);
@@ -40,8 +34,9 @@ function App() {
       <div className="relative mx-auto flex min-h-screen max-w-[1440px]">
         <Sidebar profile={profile} navigation={navigation} active={active} goTo={goTo} />
         <main className="min-w-0 flex-1 px-4 pb-12 sm:px-7 lg:px-10">
-          <Header profile={profile} navigation={navigation} menuOpen={menuOpen} setMenuOpen={setMenuOpen} goTo={goTo} toggleTheme={toggleTheme} theme={theme} />
+          <Header profile={profile} navigation={navigation} menuOpen={menuOpen} setMenuOpen={setMenuOpen} goTo={goTo} />
           <Overview profile={profile} metrics={metrics} goTo={goTo} />
+          <About profile={profile} />
           <Experience work={work} />
           <Security caseStudies={caseStudies} showAllCases={showAllCases} setShowAllCases={setShowAllCases} />
           <Projects projects={projects} profile={profile} />

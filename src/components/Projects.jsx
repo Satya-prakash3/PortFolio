@@ -9,7 +9,7 @@ export default function Projects({ projects, profile }) {
       <div className="grid gap-3 lg:grid-cols-3">
         {projects.map((project) => (
           <article key={project.name} className="flex flex-col rounded-xl border border-white/[0.08] bg-[#0c1522]/85 p-5 transition hover:-translate-y-0.5 hover:border-teal-300/25">
-            <p className="text-[10px] font-semibold tracking-[0.15em] text-slate-500">{project.kind}</p>
+            <p className="text-[10px] font-semibold tracking-[0.15em] text-slate-400">{project.kind}</p>
             <h3 className="mt-3 text-lg font-semibold text-white">{project.name}</h3>
             <p className="mt-2 flex-1 text-sm leading-6 text-slate-400">{project.description}</p>
             <div className="mt-4 flex flex-wrap gap-2">{project.tags.map((tag) => <Tag key={tag}>{tag}</Tag>)}</div>

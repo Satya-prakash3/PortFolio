@@ -149,3 +149,5 @@ vite.config.ts.timestamp-*
 .turbo
 /Profile
 /backup-astro
+LIGHTHOUSE_REPORT.md
+

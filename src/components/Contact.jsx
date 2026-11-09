@@ -29,7 +29,7 @@ export default function Contact({ profile, year }) {
         </div>
       </section>
 
-      <footer className="flex flex-col gap-2 border-t border-white/[0.07] py-6 text-[11px] text-slate-600 sm:flex-row sm:items-center sm:justify-between">
+      <footer className="flex flex-col gap-2 border-t border-white/[0.07] py-6 text-[11px] text-slate-400 sm:flex-row sm:items-center sm:justify-between">
         <span>© {year} {profile.name}. Built around engineering work and real outcomes.</span>
         <span>{profile.location} · {profile.role}</span>
       </footer>
